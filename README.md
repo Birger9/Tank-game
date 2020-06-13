@@ -10,6 +10,6 @@ The command: python3 ctf.py --map my\_map.txt <=== Your own created text file
 
 Level editor: 
 This editor should be started using the following command:
-python3 ctf-editor.py [width] [height]
+python3 ctf-editor.py [width] [height].
 Where [width] and [height] are parameters pass by the user which defines the size of the map, for instance, if a user wants to create a 10x12 map, he will use the following command: python3 ctf-editor.py 10x12
 
