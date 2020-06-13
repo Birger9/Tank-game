@@ -1,0 +1,12 @@
+TASK: Explain in one or two sentences, why do you think it is a good idea to generate
+a static image of the background. Once this is done, you should bring the text
+to the Friday project report.
+
+This is because the background doesn't have to be updated as it will always stay the same, therefore it only has be generated once
+
+TASK: Is this the most optimal solution for displaying all the different type of boxes?
+And if it is not, what do you think should be done to improve the performance?
+Once you have given thought about this, you should bring your answer to the
+Friday project report
+
+It is not the most optimal solution because for example two rock boxes could be represented as one game object instead of two

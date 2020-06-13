@@ -1,0 +1,70 @@
+Jonathan - changelog
+
+11/12/2019
+Added text entry class
+You can now set size and name of new map in level editor menu
+
+7/12/2019
+Improved the scoreboards visuals
+Scoreboard is now sorted by highest scoring players
+Added advanced scoring:
+100 for flag
+10 for destroying enemy carrying flag
+5 for destroying an enemy
+1 for destroying a wooden box
+Fixed bug where object selection buttons appeared more than once
+
+5/12/2019
+Added white background to selected object in level editor
+Game no longer crashes if editor is closed instead of finishing
+
+4/12/2019
+You can now select objects to right of map at level editor and place them
+Added a class for Sprite buttons
+Added menu to level editor to select objects
+Added remove_object_loc to level editor (removes object at given coordinates)
+
+30/11/2019
+You can now access the level editor from the menu
+You can modify existing maps
+After exiting the level editor you will be back at the menu
+Added loap_map - loads a single specific map
+Added simple scoreboard
+
+25/11/2019
+You can now set players controls with set button in map selection menu
+Buttons now have a black outline
+Added level editor button to main menu
+Added level editor menu (New, edit maps, map preview)
+Fog of war is now only enabled in single-player
+Added new menu background
+Centered map size text
+
+22/11/2019
+Now uses player_controls to detect keyboard input for players
+
+21/11/2019
+New file ui.py
+Made a class for buttons
+Buttons are now stored in a dictionary and functions for them only run when required
+
+19/11/2019
+Added black border to map preview
+Now displays map size above map preview
+Now displays tank ID next to Player/AI
+You can now select which tanks should be Players/AI
+
+18/11/2019
+Added logo to main menu
+Added map selection with preview of map
+Logo is smaller when map selection is present
+You can now choose which map to play
+Displays player amount, but can't choose AI/Player yet
+
+17/11/2019
+New function: remove_object(shape) - removes given shape and its parent objekt from objectlist and pymunk
+Renamed has_won to has_scored (confusing name)
+Flag.respawn - moves the flag back to its spawn
+Now adds +1 score to the player if player returns the flag to its base
+Added player_list to keep track of the players saved data (tank, score and AI/Player)
+Main menu - features start and quit button
